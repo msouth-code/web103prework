@@ -1,16 +1,16 @@
 {
   "name": "prework",
-  "homepage": "https://msouth-code.github.io/web103prework/",
+  "homepage": "https://msouth-code.github.io/web103prework",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.112.3",
