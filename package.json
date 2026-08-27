@@ -1,9 +1,9 @@
 {
   "name": "prework",
+  "homepage": "https://msouth-code.github.io/web103prework/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://msouth-code.github.io/web103prework/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
